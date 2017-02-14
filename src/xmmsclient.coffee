@@ -508,7 +508,7 @@ class Error
 class Client
 	@IPC = {}
 
-	protocol_version: 23
+	protocol_version: 24
 	max_cookie: 524288
 
 	constructor: (@clientname) ->

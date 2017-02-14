@@ -59,7 +59,7 @@ class Main
 		message = new xmmsclient.Message()
 		message.object_id = 0
 		message.command_id = 33
-		message.args = [12]
+		message.args = [0]
 
 		return @client.send_message message
 
@@ -270,7 +270,7 @@ class Playlist
 		message = new xmmsclient.Message()
 		message.object_id = 0
 		message.command_id = 33
-		message.args = [0]
+		message.args = [1]
 
 		return @client.send_message message
 
@@ -280,7 +280,7 @@ class Playlist
 		message = new xmmsclient.Message()
 		message.object_id = 0
 		message.command_id = 33
-		message.args = [6]
+		message.args = [2]
 
 		return @client.send_message message
 
@@ -290,7 +290,7 @@ class Playlist
 		message = new xmmsclient.Message()
 		message.object_id = 0
 		message.command_id = 33
-		message.args = [7]
+		message.args = [3]
 
 		return @client.send_message message
 
@@ -357,7 +357,7 @@ class Config
 		message = new xmmsclient.Message()
 		message.object_id = 0
 		message.command_id = 33
-		message.args = [1]
+		message.args = [4]
 
 		return @client.send_message message
 
@@ -505,7 +505,7 @@ class Playback
 		message = new xmmsclient.Message()
 		message.object_id = 0
 		message.command_id = 33
-		message.args = [2]
+		message.args = [5]
 
 		return @client.send_message message
 
@@ -515,7 +515,7 @@ class Playback
 		message = new xmmsclient.Message()
 		message.object_id = 0
 		message.command_id = 33
-		message.args = [3]
+		message.args = [6]
 
 		return @client.send_message message
 
@@ -525,7 +525,7 @@ class Playback
 		message = new xmmsclient.Message()
 		message.object_id = 0
 		message.command_id = 33
-		message.args = [5]
+		message.args = [7]
 
 		return @client.send_message message
 
@@ -673,7 +673,7 @@ class Medialib
 		message = new xmmsclient.Message()
 		message.object_id = 0
 		message.command_id = 33
-		message.args = [8]
+		message.args = [9]
 
 		return @client.send_message message
 
@@ -683,7 +683,7 @@ class Medialib
 		message = new xmmsclient.Message()
 		message.object_id = 0
 		message.command_id = 33
-		message.args = [9]
+		message.args = [10]
 
 		return @client.send_message message
 
@@ -693,7 +693,7 @@ class Medialib
 		message = new xmmsclient.Message()
 		message.object_id = 0
 		message.command_id = 33
-		message.args = [10]
+		message.args = [11]
 
 		return @client.send_message message
 
@@ -832,7 +832,7 @@ class Collection
 		message = new xmmsclient.Message()
 		message.object_id = 0
 		message.command_id = 33
-		message.args = [11]
+		message.args = [12]
 
 		return @client.send_message message
 
@@ -1125,7 +1125,7 @@ class IpcManager
 		message = new xmmsclient.Message()
 		message.object_id = 0
 		message.command_id = 33
-		message.args = [16]
+		message.args = [17]
 
 		return @client.send_message message
 
@@ -1135,7 +1135,7 @@ class IpcManager
 		message = new xmmsclient.Message()
 		message.object_id = 0
 		message.command_id = 33
-		message.args = [17]
+		message.args = [18]
 
 		return @client.send_message message
 
