@@ -1,3 +1,5 @@
+Work In Progess : match the xmms2-devel version https://github.com/xmms2/xmms2-devel
+
 This is JavaScript client library for XMMS2 written using CoffeeScript.
 Must be used via a WebSocket proxy such as websockify for now.
 Compiling to JavaScript requires CoffeeScript to be installed and then running "cake build".
