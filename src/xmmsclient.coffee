@@ -782,6 +782,7 @@ xmmsclient.MediainfoReaderStatus = MediainfoReaderStatus
 xmmsclient.Message = Message
 xmmsclient.PlaybackStatus = PlaybackStatus
 xmmsclient.PlaylistChange = PlaylistChange
+xmmsclient.PlaylistPositionAction = PlaylistPositionAction
 xmmsclient.PluginType = PluginType
 xmmsclient.PropDict = PropDict
 xmmsclient.Result = Result
