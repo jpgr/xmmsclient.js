@@ -753,6 +753,12 @@ PlaylistChange =
 	MOVE:    5
 	SORT:    6
 	UPDATE:  7
+	REPLACE: 8
+
+PlaylistPositionAction =
+	FORGET:        0
+	KEEP:          1
+	MOVE_TO_FRONT: 2
 
 Seek =
 	CUR: 1
