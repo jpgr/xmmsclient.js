@@ -230,8 +230,9 @@ class Value
 			when Value.Type.Dictionary
 				return @deserialize_dict(bindata)
 
-	@deserialize: (bindata) ->
-		type = bindata.read_int32()
+	@deserialize: (bindata, type) ->
+		if !Number.isInteger(type)
+			type = bindata.read_int32()
 		return @deserialize_value(bindata, type)
 
 
